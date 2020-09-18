@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_color_matrix_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:text="Color Matrix Filter"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_lighting_color_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:text="Lighting Color Filter"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_porter_duff_color_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:text="Porter Duff Color Filter"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_porter_duff_xfermode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:text="Porter Duff Xfermode"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_dst_in_exercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:text="Dst In Exercise"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_dst_out_exercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:text="Dst Out Exercise"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_eraser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:text="Eraser View Exercise"
+        android:textAllCaps="false" />
+
+</LinearLayout>

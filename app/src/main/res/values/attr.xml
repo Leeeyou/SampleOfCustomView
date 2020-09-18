@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SquareLayout">
+        <attr name="orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="my_gravity" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+            <enum name="center" value="2" />
+            <enum name="top" value="3" />
+            <enum name="bottom" value="4" />
+        </attr>
+    </declare-styleable>
+
+<!--    &lt;!&ndash; http://blog.csdn.net/aigestudio &ndash;&gt;-->
+<!--    <declare-styleable name="AttrView">-->
+<!--        &lt;!&ndash; 引用资源 &ndash;&gt;-->
+<!--        <attr name="image" format="reference" />-->
+<!--        &lt;!&ndash; 颜色 &ndash;&gt;-->
+<!--        <attr name="text_color" format="color" />-->
+<!--        &lt;!&ndash; 布尔值 &ndash;&gt;-->
+<!--        <attr name="text_display" format="boolean" />-->
+<!--        &lt;!&ndash; 尺寸大小 &ndash;&gt;-->
+<!--        <attr name="temp1" format="dimension" />-->
+<!--        &lt;!&ndash; 浮点值 &ndash;&gt;-->
+<!--        <attr name="temp2" format="float" />-->
+<!--        &lt;!&ndash; 整型值 &ndash;&gt;-->
+<!--        <attr name="temp3" format="integer" />-->
+<!--        &lt;!&ndash; 字符串 &ndash;&gt;-->
+<!--        <attr name="text" format="string" />-->
+<!--        &lt;!&ndash; 百分比 &ndash;&gt;-->
+<!--        <attr name="alpha" format="fraction" />-->
+<!--        &lt;!&ndash; 枚举 &ndash;&gt;-->
+<!--        <attr name="text_align" format="integer">-->
+<!--            <enum name="left" value="0" />-->
+<!--            <enum name="right" value="1" />-->
+<!--            <enum name="center" value="2" />-->
+<!--        </attr>-->
+<!--        &lt;!&ndash; 位运算 &ndash;&gt;-->
+<!--        <attr name="text_optimize" format="integer">-->
+<!--            <flag name="anti" value="0x001" />-->
+<!--            <flag name="dither" value="0x002" />-->
+<!--            <flag name="linear" value="0x004" />-->
+<!--        </attr>-->
+<!--    </declare-styleable>-->
+
+    <declare-styleable name="customCheckBox">
+        <attr name="unselectButtonDrawable" format="reference" />
+        <attr name="selectButtonDrawable" format="reference" />
+        <attr name="checked" format="boolean" />
+    </declare-styleable>
+
+</resources>
