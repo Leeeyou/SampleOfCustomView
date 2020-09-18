@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.leeeyou.sampleofcustomview">
+    package="com.sample.leeeyou.customview">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.sample.leeeyou.customview.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,54 +17,54 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".demo1.Demo1MainActivity" />
-        <activity android:name=".demo1.ECGViewActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo1.Demo1MainActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo1.Demo1EcgViewActivity" />
 
-        <activity android:name=".demo2.Demo2MainActivity" />
-        <activity android:name=".demo2.ColorMatrixFilterActivity" />
-        <activity android:name=".demo2.DST_IN_Activity" />
-        <activity android:name=".demo2.DST_OUT_Activity" />
-        <activity android:name=".demo2.EraserActivity" />
-        <activity android:name=".demo2.LightingColorFilterActivity" />
-        <activity android:name=".demo2.PorterDuffColorFilterActivity" />
-        <activity android:name=".demo2.PorterDuffXfermodeActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo2.Demo2MainActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo2.Demo2ColorMatrixFilterActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo2.Demo2DstInActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo2.Demo2DstOutActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo2.Demo2EraserActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo2.Demo2LightingColorFilterActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo2.Demo2PorterDuffColorFilterActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo2.Demo2PorterDuffXfermodeActivity" />
 
-        <activity android:name=".demo3.Demo3MainActivity" />
-        <activity android:name=".demo3.FontActivity" />
-        <activity android:name=".demo3.MaskFilterActivity" />
-        <activity android:name=".demo3.ShadowActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo3.Demo3MainActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo3.Demo3FontActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo3.Demo3MaskFilterActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo3.Demo3ShadowActivity" />
 
-        <activity android:name=".demo4.Demo4MainActivity" />
-        <activity android:name=".demo4.BrickViewActivity" />
-        <activity android:name=".demo4.DreamViewActivity" />
-        <activity android:name=".demo4.MatrixImageViewActivity" />
-        <activity android:name=".demo4.ReflectViewActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo4.Demo4MainActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo4.Demo4BrickViewActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo4.Demo4DreamViewActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo4.Demo4MatrixImageViewActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo4.Demo4ReflectViewActivity" />
 
-        <activity android:name=".demo5.Demo5MainActivity" />
-        <activity android:name=".demo5.RadarActivity" />
-        <activity android:name=".demo5.SecondOrderBesselActivity" />
-        <activity android:name=".demo5.ThirdOrderBesselActivity" />
-        <activity android:name=".demo5.PathMeasureActivity" />
-        <activity android:name=".demo5.PathTextPaintActivity" />
-        <activity android:name=".demo5.PolyLineViewActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo5.Demo5MainActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo5.Demo5RadarActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo5.Demo5SecondOrderBesselActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo5.Demo5ThirdOrderBesselActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo5.Demo5PathMeasureActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo5.Demo5PathTextPaintActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo5.Demo5PolyLineViewActivity" />
 
-        <activity android:name=".demo6.Demo6MainActivity" />
-        <activity android:name=".demo6.LayerViewBasicActivity" />
-        <activity android:name=".demo6.LayerViewSaveRestoreActivity" />
-        <activity android:name=".demo6.LayerViewTransferActivity" />
-        <activity android:name=".demo6.MatrixViewActivity" />
-        <activity android:name=".demo6.PieViewActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo6.Demo6MainActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo6.Demo6LayerViewBasicActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo6.Demo6LayerViewSaveRestoreActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo6.Demo6LayerViewTransferActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo6.Demo6MatrixViewActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo6.Demo6PieViewActivity" />
 
-        <activity android:name=".demo7.Demo7MainActivity" />
-        <activity android:name=".demo7.CustomLayoutActivity" />
-        <activity android:name=".demo7.IconViewActivity" />
-        <activity android:name=".demo7.ImgViewActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo7.Demo7MainActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo7.Demo7CustomLayoutActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo7.Demo7IconViewActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo7.Demo7ImgViewActivity" />
 
-        <activity android:name=".demo8.Demo8MainActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo8.Demo8MainActivity" />
 
-        <activity android:name=".demo9.Demo9MainActivity" />
-        <activity android:name=".demo9.CombiningActivity" />
-        <activity android:name=".demo9.SlackActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo9.Demo9MainActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo9.Demo9CombiningActivity" />
+        <activity android:name="com.sample.leeeyou.customview.demo9.Demo9SlackActivity" />
 
     </application>
 

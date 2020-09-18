@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="@color/pageBackground">
 
     <Button
         android:id="@+id/btn_demo1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
         android:onClick="onClickDemo1"
         android:text="Demo1"
         android:textAllCaps="false"
@@ -19,8 +20,10 @@
 
     <Button
         android:id="@+id/btn_demo2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
         android:onClick="onClickDemo2"
         android:text="Demo2"
         android:textAllCaps="false"
@@ -30,8 +33,10 @@
 
     <Button
         android:id="@+id/btn_demo3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
         android:onClick="onClickDemo3"
         android:text="Demo3"
         android:textAllCaps="false"
@@ -41,8 +46,10 @@
 
     <Button
         android:id="@+id/btn_demo4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
         android:onClick="onClickDemo4"
         android:text="Demo4"
         android:textAllCaps="false"
@@ -52,8 +59,10 @@
 
     <Button
         android:id="@+id/btn_demo5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
         android:onClick="onClickDemo5"
         android:text="Demo5"
         android:textAllCaps="false"
@@ -63,8 +72,10 @@
 
     <Button
         android:id="@+id/btn_demo6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
         android:onClick="onClickDemo6"
         android:text="Demo6"
         android:textAllCaps="false"
@@ -74,8 +85,10 @@
 
     <Button
         android:id="@+id/btn_demo7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
         android:onClick="onClickDemo7"
         android:text="Demo7"
         android:textAllCaps="false"
@@ -85,8 +98,10 @@
 
     <Button
         android:id="@+id/btn_demo8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
         android:onClick="onClickDemo8"
         android:text="Demo8"
         android:textAllCaps="false"
@@ -96,8 +111,10 @@
 
     <Button
         android:id="@+id/btn_demo9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
         android:onClick="onClickDemo9"
         android:text="Demo9"
         android:textAllCaps="false"

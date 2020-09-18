@@ -2,7 +2,7 @@
 
 ## Demo1
 
-use the Path
+熟悉Paint和Path的用法
 
 ![DemoCustomView1.gif](asset/demo1/DemoCustomView1.gif)
 

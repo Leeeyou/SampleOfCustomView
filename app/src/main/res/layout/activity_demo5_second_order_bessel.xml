@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_second_order_bessel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.sample.leeeyou.customview.demo5.view.SecondBezier
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
